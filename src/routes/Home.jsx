@@ -22,13 +22,13 @@ const Home = () => {
         {
             id: "home",
             title: null,
-            className: "bg-blue-50",
+            className: "bg-me-200",
             content: (
                 <div className="text-center">
-                    <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
+                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
                         Bienvenido a Mi Portfolio
                     </h1>
-                    <p className="text-xl md:text-2xl text-gray-600">
+                    <p className="text-xl md:text-2xl text-slate-300">
                         Desarrollador Web | Diseñador UI/UX | Creativo
                     </p>
                 </div>
@@ -37,7 +37,7 @@ const Home = () => {
         {
             id: "about",
             title: "Sobre Mí",
-            className: "bg-white",
+            className: "bg-me-100",
             content: (
                 <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
                     Soy un desarrollador web apasionado por crear experiencias digitales

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --brand: #2e2e2e;
+  --brand-light: #575757;
+  --surface: #818181;
+  --surface-light: #aaaaaa;
+  --surface-lighter: #d4d4d4;
+}

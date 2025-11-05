@@ -4,7 +4,7 @@ const Section = ({ id, title, children, className }) => (
       className={`min-h-screen flex items-center justify-center ${className}`}
     >
       <div className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-surface-lighter mb-8">
           {title}
         </h2>
         {children}

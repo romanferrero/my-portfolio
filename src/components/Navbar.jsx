@@ -46,17 +46,17 @@ const NavBar = ({ sections }) => {
   }, [sections, activeSection]);
 
   return (
-    <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-10">
+    <nav className="bg-surface-lighter shadow-md fixed top-0 left-0 right-0 z-10">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <div className="text-xl font-semibold text-gray-700">Mi Portfolio</div>
+          <div className="text-xl font-semibold text-brand">Mi Portfolio</div>
           <div className="hidden md:flex space-x-4">
             {sections.map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
-                className={`text-gray-600 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300 ${
-                  activeSection === section ? "text-blue-500 bg-blue-100" : ""
+                className={`text-brand hover:text-surface-light px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300 ${
+                  activeSection === section ? "text-surface bg-brand-light" : ""
                 }`}
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}

@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* ---------- Dark mode variant (class-based) ---------- */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------- Theme tokens (mapped to CSS variables) ---------- */
+@theme inline {
+  /* Surface */
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-border: var(--border);
+
+  /* Text */
+  --color-text: var(--text);
+  --color-text-strong: var(--text-strong);
+  --color-text-muted: var(--text-muted);
+
+  /* Brand */
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+
+  /* Typography */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
+}
+
+/* ---------- Light theme (default) ---------- */
+:root {
+  --bg: #ffffff;
+  --bg-elevated: #f8fafc;
+  --border: #e2e8f0;
+
+  --text: #475569;
+  --text-strong: #0f172a;
+  --text-muted: #94a3b8;
+
+  --accent: #7c3aed;
+  --accent-hover: #6d28d9;
+
+  color-scheme: light;
+}
+
+/* ---------- Dark theme ---------- */
+.dark {
+  --bg: #0a0a0f;
+  --bg-elevated: #14141d;
+  --border: #27272a;
+
+  --text: #a1a1aa;
+  --text-strong: #f4f4f5;
+  --text-muted: #71717a;
+
+  --accent: #a78bfa;
+  --accent-hover: #c4b5fd;
+
+  color-scheme: dark;
+}
+
+/* ---------- Base layer ---------- */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-bg text-text font-sans;
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  ::selection {
+    background-color: color-mix(in oklab, var(--accent) 25%, transparent);
+    color: var(--text-strong);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}

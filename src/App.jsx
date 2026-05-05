@@ -4,13 +4,14 @@ import { Footer } from "./components/layout/Footer.jsx"
 import { Container } from "./components/ui/Container.jsx"
 import { Hero } from "./components/sections/Hero.jsx"
 import { About } from "./components/sections/About.jsx"
+import { Skills } from "./components/sections/Skills.jsx"
 import { useLanguage } from "./hooks/useLanguage.js"
 
 /**
  * Sections still pending implementation. They render a "Coming soon"
  * placeholder so the navbar scroll-spy and anchor links keep working.
  */
-const PENDING_SECTIONS = ["skills", "projects", "experience", "contact"]
+const PENDING_SECTIONS = ["projects", "experience", "contact"]
 
 function PlaceholderSection({ id }) {
   const { t } = useLanguage()
@@ -41,6 +42,7 @@ function AppShell() {
       <main className="flex-1 pt-16">
         <Hero />
         <About />
+        <Skills />
         {PENDING_SECTIONS.map((id) => (
           <PlaceholderSection key={id} id={id} />
         ))}

@@ -24,7 +24,7 @@ export const EXPERIENCE = [
   {
     id: "coderhouse-react",
     kind: "education",
-    title: "React JS - Desarrollo Full-Stack",
+    title: "React JS - Desarrollador Full-Stack",
     org: "Coderhouse",
     location: "Online",
     period: { start: "01/2026", end: "04/2026" },
@@ -38,7 +38,7 @@ export const EXPERIENCE = [
   {
     id: "coderhouse-js",
     kind: "education",
-    title: "JavaScript - Desarrollo Full-Stack",
+    title: "JavaScript - Desarrollador Full-Stack",
     org: "Coderhouse",
     location: "Online",
     period: { start: "11/2025", end: "02/2026" },
@@ -47,6 +47,21 @@ export const EXPERIENCE = [
       en: "JavaScript course focused on building dynamic web applications. Programming logic, DOM manipulation, event handling and API consumption.",
     },
     tags: ["JavaScript", "DOM", "REST"],
+    certificate: "/certificates/Certificado-JavaScript.png"
+  },
+  {
+    id: "coderhouse-dw",
+    kind: "education",
+    title: "Desarrollo Web - Desarrollador Full-Stack",
+    org: "Coderhouse",
+    location: "Online",
+    period: { start: "08/2025", end: "11/2025" },
+    description: {
+      es: "Curso de Desarrollo Web enfocado en desarrollo de aplicaciones web dinámicas. Aplicando conceptos de HTML, CSS y JavaScript para crear sitios web modernos y responsivos.",
+      en: "Web Development course focused on building dynamic web applications. Applying HTML, CSS and JavaScript concepts to create modern and responsive websites.",
+    },
+    tags: ["JavaScript", "CSS", "HTML"],
+    certificate: "/certificates/Certificado-DesarrolloWeb.png"
   },
   {
     id: "basf-intern",

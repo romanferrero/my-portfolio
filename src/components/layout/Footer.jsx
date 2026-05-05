@@ -1,12 +1,13 @@
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Mail } from "lucide-react"
+import { FiGithub, FiLinkedin } from "react-icons/fi"
 
 import { Container } from "../ui/Container.jsx"
 import { useLanguage } from "../../hooks/useLanguage.js"
 import { SOCIAL_LINKS } from "../../data/social.js"
 
 const SOCIALS = [
-  { href: SOCIAL_LINKS.github, label: "GitHub", Icon: Github },
-  { href: SOCIAL_LINKS.linkedin, label: "LinkedIn", Icon: Linkedin },
+  { href: SOCIAL_LINKS.github, label: "GitHub", Icon: FiGithub },
+  { href: SOCIAL_LINKS.linkedin, label: "LinkedIn", Icon: FiLinkedin },
   { href: SOCIAL_LINKS.email, label: "Email", Icon: Mail },
 ]
 

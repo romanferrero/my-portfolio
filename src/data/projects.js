@@ -23,6 +23,7 @@ export const PROJECTS = [
     tags: ["C#", "Blazor", ".NET", "SQL Server", "Entity Framework Core", "Docker", "MSTest", "GitHub Actions"],
     github: "https://github.com/romanferrero/Obligatorio-TaskTrackPro",
     demo: null,
+    image: null,
   },
   {
     id: "near-dup-finder",
@@ -34,6 +35,7 @@ export const PROJECTS = [
     tags: ["C#", ".NET 8", "Blazor Server", "Entity Framework Core", "Azure SQL Edge", "Docker", "MSTest"],
     github: "https://github.com/romanferrero/Obligatorio-NearDupFinder",
     demo: null,
+    image: null,
   },
   {
     id: "uruguay-sub200",
@@ -45,6 +47,7 @@ export const PROJECTS = [
     tags: ["HTML5", "SASS", "Bootstrap", "CSS Grid", "Git"],
     github: "https://github.com/romanferrero/coderhouse-desarrolloweb",
     demo: "https://uruguaysub200.netlify.app/",
+    image: "/projects/uruguaysub200.jpg",
   },
   {
     id: "rf-converter",
@@ -56,6 +59,7 @@ export const PROJECTS = [
     tags: ["JavaScript", "Bootstrap", "Fetch API", "SweetAlert2", "LocalStorage"],
     github: "https://github.com/romanferrero/coderhouse-javascript",
     demo: "https://rf-converter.netlify.app/",
+    image: "/projects/rfconverter.jpg",
   },
   {
     id: "olimpiadas-familiares",
@@ -67,6 +71,7 @@ export const PROJECTS = [
     tags: ["React", "Tailwind CSS", "Vite", "Supabase"],
     github: "https://github.com/romanferrero/family-games",
     demo: "https://olimpiadas-familiares.netlify.app/",
+    image: "/projects/olimpiadas.jpg",
   },
   {
     id: "ruta-del-surf",
@@ -78,6 +83,7 @@ export const PROJECTS = [
     tags: ["React", "React Router", "Firebase", "Tailwind CSS", "DaisyUI", "Vite"],
     github: "https://github.com/romanferrero/coderhouse-react",
     demo: "https://romanferrero.github.io/coderhouse-react/",
+    image: "/projects/rutadelsurf.jpg",
   },
   {
     id: "personal-portfolio",
@@ -89,5 +95,6 @@ export const PROJECTS = [
     tags: ["React", "Tailwind CSS", "Framer Motion", "i18next", "Vite"],
     github: "https://github.com/romanferrero/my-portfolio",
     demo: "https://roman-ferrero.vercel.app/",
+    image: "/projects/portfolio.jpg",
   },
 ]

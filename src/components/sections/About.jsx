@@ -4,6 +4,8 @@ import { SectionTitle } from "../ui/SectionTitle.jsx"
 import { Container } from "../ui/Container.jsx"
 import { useLanguage } from "../../hooks/useLanguage.js"
 import { ABOUT_STATS } from "../../data/stats.js"
+import { PROFILE_PHOTO } from "../../data/profile.js"
+import { cn } from "../../lib/cn.js"
 
 const reveal = {
   hidden: { opacity: 0, y: 20 },
@@ -14,8 +16,42 @@ const reveal = {
   },
 }
 
+/**
+ * Square portrait. Decorated with a subtle violet glow on hover.
+ * Only rendered when PROFILE_PHOTO is configured in src/data/profile.js.
+ */
+function ProfilePhoto() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.95 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true, margin: "-80px" }}
+      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+      className="relative mx-auto w-full max-w-[280px] lg:max-w-none"
+    >
+      {/* Glow behind the photo */}
+      <div
+        aria-hidden="true"
+        className="
+          absolute -inset-4 -z-10 rounded-3xl
+          bg-gradient-to-br from-accent/30 to-accent/0 blur-2xl
+        "
+      />
+      <img
+        src={PROFILE_PHOTO}
+        alt="Roman Ferrero"
+        className="
+          aspect-square w-full rounded-2xl border border-border
+          object-cover shadow-xl shadow-black/10
+        "
+      />
+    </motion.div>
+  )
+}
+
 export function About() {
   const { t } = useLanguage()
+  const hasPhoto = Boolean(PROFILE_PHOTO)
 
   return (
     <section id="about" className="py-24 scroll-mt-20 sm:py-28">
@@ -26,7 +62,16 @@ export function About() {
       />
 
       <Container className="mt-12">
-        <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr] lg:gap-16">
+        <div
+          className={cn(
+            "grid gap-10 lg:gap-16",
+            hasPhoto
+              ? "lg:grid-cols-[280px_1fr_minmax(220px,1fr)]"
+              : "lg:grid-cols-[1.2fr_1fr]",
+          )}
+        >
+          {hasPhoto && <ProfilePhoto />}
+
           {/* Long-form copy */}
           <motion.div
             initial="hidden"

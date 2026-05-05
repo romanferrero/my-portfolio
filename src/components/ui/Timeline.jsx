@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import { Download } from "lucide-react"
 
 import { useLanguage } from "../../hooks/useLanguage.js"
 import { KIND_META } from "../../data/experience.js"
@@ -31,6 +32,11 @@ function TimelineItem({ entry }) {
 
   const kindLabel = t(`experience.kinds.${entry.kind}`)
   const isWork = entry.kind === "work"
+
+  // Inline labels for the certificate link. Fallback hardcoded so this
+  // works whether or not the locale files have a key for it.
+  const certLabel =
+    language === "es" ? "Descargar certificado" : "Download certificate"
 
   return (
     <motion.li variants={item} className="relative pl-12">
@@ -92,6 +98,23 @@ function TimelineItem({ entry }) {
             ))}
           </ul>
         )}
+
+        {/* Optional certificate download */}
+        {entry.certificate && (
+          <a
+            href={entry.certificate}
+            download
+            className="
+              mt-4 inline-flex items-center gap-1.5 rounded-full
+              border border-border bg-bg px-3 py-1.5 text-xs font-medium
+              text-text transition-colors
+              hover:border-accent/50 hover:text-accent
+            "
+          >
+            <Download size={13} />
+            <span>{certLabel}</span>
+          </a>
+        )}
       </div>
     </motion.li>
   )
@@ -101,6 +124,10 @@ function TimelineItem({ entry }) {
  * Vertical timeline. Renders a list of `entries` (see data/experience.js
  * for the shape). Single-column layout that works equally well on mobile
  * and desktop without alternating sides.
+ *
+ * Each entry can optionally include a `certificate` field (URL to a PDF
+ * served from /public). When present, a "Download certificate" button
+ * appears at the bottom of the card.
  */
 export function Timeline({ entries }) {
   return (

@@ -33,6 +33,7 @@ export const EXPERIENCE = [
       en: "Full-Stack development training focused on React JS, building dynamic and interactive web applications with modern JavaScript ecosystem tools.",
     },
     tags: ["React", "JavaScript", "Full-Stack", "Firebase", "API REST"],
+    certificate: "/certificates/Certificado-React.png"
   },
   {
     id: "coderhouse-js",

@@ -6,11 +6,60 @@ import { useLanguage } from "../../hooks/useLanguage.js"
 import { gradientFor, initialsFor } from "../../lib/gradient.js"
 
 /**
+ * Renders the top "preview" area of a project card.
+ *
+ * If `project.image` is provided, shows the image (lazy-loaded). Otherwise
+ * falls back to a deterministic gradient with the project initials. The
+ * gradient is the default so the section looks polished even before
+ * screenshots are produced.
+ */
+function PreviewArea({ project }) {
+  if (project.image) {
+    return (
+      <div className="relative h-32 w-full overflow-hidden">
+        <img
+          src={project.image}
+          alt={`${project.name} preview`}
+          loading="lazy"
+          className="
+            h-full w-full object-cover
+            transition-transform duration-500 group-hover:scale-105
+          "
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+      </div>
+    )
+  }
+
+  const { from, to } = gradientFor(project.name)
+  const initials = initialsFor(project.name)
+
+  return (
+    <div
+      aria-hidden="true"
+      className="relative h-32 w-full overflow-hidden"
+      style={{ background: `linear-gradient(135deg, ${from}, ${to})` }}
+    >
+      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+      <span
+        className="
+          absolute inset-0 flex items-center justify-center
+          text-5xl font-black tracking-tight text-white/90
+          transition-transform duration-500 group-hover:scale-110
+        "
+      >
+        {initials}
+      </span>
+    </div>
+  )
+}
+
+/**
  * Single project card. Visual structure:
  *
  *  ┌──────────────────────────┐
- *  │      gradient header     │  ← auto-generated from project name
- *  │    (initials overlay)    │
+ *  │   image OR gradient      │  ← project.image if defined, else gradient
+ *  │   (preview area)         │
  *  ├──────────────────────────┤
  *  │ Name                     │
  *  │ Description...           │
@@ -21,9 +70,6 @@ import { gradientFor, initialsFor } from "../../lib/gradient.js"
  */
 export function ProjectCard({ project }) {
   const { language, t } = useLanguage()
-  const { from, to } = gradientFor(project.name)
-  const initials = initialsFor(project.name)
-
   const description = project.description[language] ?? project.description.en
 
   return (
@@ -43,23 +89,7 @@ export function ProjectCard({ project }) {
         hover:shadow-2xl hover:shadow-accent/5
       "
     >
-      {/* Gradient preview */}
-      <div
-        aria-hidden="true"
-        className="relative h-32 w-full overflow-hidden"
-        style={{ background: `linear-gradient(135deg, ${from}, ${to})` }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-        <span
-          className="
-            absolute inset-0 flex items-center justify-center
-            text-5xl font-black tracking-tight text-white/90
-            transition-transform duration-500 group-hover:scale-110
-          "
-        >
-          {initials}
-        </span>
-      </div>
+      <PreviewArea project={project} />
 
       {/* Body */}
       <div className="flex flex-1 flex-col p-5">

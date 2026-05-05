@@ -10,22 +10,33 @@
   "hero": {
     "greeting": "Hola, soy",
     "name": "Roman Ferrero",
-    "role": "Full-Stack Developer & SE Advanced Student",
-    "tagline": "Soy estudiante de Ingeniería en Sistemas en la Universidad ORT Uruguay, enfocado en crear aplicaciones web modernas, escalables y fáciles de usar. Me gusta transformar ideas en productos digitales limpios y funcionales mientras sigo creciendo como desarrollador de software.",
+    "role": "Full-Stack Developer & SE Student",
+    "tagline": "Construyo aplicaciones web modernas mientras curso los últimos años de Ingeniería en Sistemas en la Universidad ORT Uruguay.",
     "ctaProjects": "Ver proyectos",
     "ctaContact": "Contactarme",
-    "available": "Abierto a nuevas oportunidades"
+    "available": "Disponible para nuevas oportunidades"
   },
   "about": {
     "eyebrow": "Sobre mí",
-    "title": "Construyendo software con foco en calidad y aprendizaje constante",
-    "lead": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, próximo a finalizar la carrera, y actualmente también me estoy formando en Desarrollo Full-Stack en Coderhouse. Me enfoco en crear aplicaciones web modernas, APIs REST y soluciones basadas en datos, aplicando buenas prácticas de programación, documentación y control de versiones.",
-    "secondary": "Durante mi pasantía en BASF formé parte del Tech Team, donde trabajé con datos de SAP y desarrollé macros en VBA para optimizar procesos internos. Además, fortalecí mis conocimientos en .NET, Node.js, Git y SQL, y adquirí experiencia colaborando en equipo. Hoy busco iniciar mi carrera profesional como desarrollador, aportando en el desarrollo, mantenimiento y mejora de sistemas reales.",
+    "title": "Pasión por construir software de calidad",
+    "lead": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, con foco en desarrollo full-stack. Disfruto resolver problemas con código limpio, escribir interfaces que se sientan bien al usar y entender el dominio del negocio detrás de cada proyecto.",
+    "secondary": "Me interesa todo el ciclo del producto: desde la arquitectura y el modelado de datos hasta la experiencia de usuario y la performance. Busco oportunidades para sumar a equipos donde aprenda, aporte y construya productos con impacto real.",
     "stats": {
       "career": "años de carrera",
       "projects": "proyectos académicos",
-      "languages": "años programando",
+      "languages": "lenguajes de programación",
       "location": "Montevideo, UY"
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Tecnologías y herramientas",
+    "lead": "Stack que manejo en proyectos académicos y personales. En constante evolución, siempre con ganas de incorporar nuevas tecnologías cuando aportan valor al producto.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Bases de datos",
+      "tools": "Herramientas"
     }
   },
   "footer": {

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es" class="dark">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -20,6 +20,23 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
+
+    <!--
+      Anti-flash theme bootstrap. Runs synchronously before React mounts so
+      the first paint already has the correct .dark class.
+    -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var theme = stored === "light" || stored === "dark" ? stored : (prefersDark ? "dark" : "light");
+          if (theme === "dark") document.documentElement.classList.add("dark");
+        } catch (_) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
 
     <title>Roman Ferrero - Portfolio</title>
   </head>

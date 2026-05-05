@@ -2,24 +2,111 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Roman Ferrero - Portfolio personal. Estudiante avanzado de Ingenieria en Sistemas (ORT Uruguay) y desarrollador full-stack." />
-    <meta name="author" content="Roman Ferrero" />
-    <meta name="theme-color" content="#0f172a" />
+    <meta name="generator" content="Vite + React" />
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Roman Ferrero - Portfolio" />
-    <meta property="og:description" content="Estudiante avanzado de Ingenieria en Sistemas (ORT Uruguay) y desarrollador full-stack." />
+    <!-- Primary -->
+    <title>Roman Ferrero - Full-Stack Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Roman Ferrero, advanced Computer Engineering student at Universidad ORT Uruguay. Full-stack developer working with React, Node.js, .NET, Java and SQL."
+    />
+    <meta
+      name="keywords"
+      content="Roman Ferrero, Full-Stack Developer, React, Node.js, JavaScript, TypeScript, ORT Uruguay, Software Engineer, Portfolio, Uruguay"
+    />
+    <meta name="author" content="Roman Ferrero" />
+    <meta name="theme-color" content="#7c3aed" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Canonical (replace with your real domain after deploy) -->
+    <link rel="canonical" href="https://roman-ferrero.vercel.app/" />
+
+    <!-- Favicon variants -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="mask-icon" href="/favicon.svg" color="#7c3aed" />
+
+    <!-- Open Graph (LinkedIn / WhatsApp / Slack / Facebook) -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Roman Ferrero" />
+    <meta property="og:url" content="https://roman-ferrero.vercel.app/" />
+    <meta property="og:title" content="Roman Ferrero - Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Advanced Computer Engineering student at Universidad ORT Uruguay. Full-stack developer working with React, Node.js, .NET, Java and SQL."
+    />
+    <meta property="og:image" content="https://roman-ferrero.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Roman Ferrero - Full-Stack Developer Portfolio" />
+    <meta property="og:locale" content="es_UY" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="profile:first_name" content="Roman" />
+    <meta property="profile:last_name" content="Ferrero" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Roman Ferrero - Full-Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Portfolio of Roman Ferrero, advanced Computer Engineering student and full-stack developer."
+    />
+    <meta name="twitter:image" content="https://roman-ferrero.vercel.app/og-image.png" />
 
     <!-- Fonts: Inter (sans) + JetBrains Mono (mono) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Structured data: Person schema for Google Knowledge Graph -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Roman Ferrero",
+        "url": "https://roman-ferrero.vercel.app/",
+        "image": "https://roman-ferrero.vercel.app/og-image.png",
+        "jobTitle": "Full-Stack Developer",
+        "description": "Advanced Computer Engineering student at Universidad ORT Uruguay and full-stack developer.",
+        "email": "mailto:romaferrero@hotmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Montevideo",
+          "addressCountry": "UY"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Universidad ORT Uruguay"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/romanferrero",
+          "https://github.com/romanferrero"
+        ],
+        "knowsAbout": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Node.js",
+          ".NET",
+          "Java",
+          "C#",
+          "SQL",
+          "REST APIs",
+          "Full-Stack Development"
+        ],
+        "knowsLanguage": ["es", "en", "pt"]
+      }
+    </script>
 
     <!--
       Anti-flash theme bootstrap. Runs synchronously before React mounts so
@@ -37,8 +124,6 @@
         }
       })();
     </script>
-
-    <title>Roman Ferrero - Portfolio</title>
   </head>
   <body>
     <div id="root"></div>

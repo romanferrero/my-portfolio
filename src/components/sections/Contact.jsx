@@ -67,32 +67,25 @@ function ContactCard({ href, Icon, label, description, accent }) {
   )
 }
 
+/**
+ * Contact channels. The `id` is a STABLE React key so language changes
+ * don't remount the cards (which would reset their Framer Motion entrance
+ * variants and leave them invisible after the first viewport reveal).
+ */
+const CHANNELS = [
+  { id: "email", Icon: Mail, accent: "var(--accent)" },
+  { id: "linkedin", Icon: FiLinkedin, accent: "#0A66C2" },
+  { id: "github", Icon: FiGithub, accent: "#6e7781" },
+]
+
 export function Contact() {
   const { t } = useLanguage()
 
-  const cards = [
-    {
-      href: SOCIAL_LINKS.email,
-      Icon: Mail,
-      label: t("contact.emailLabel"),
-      description: t("contact.emailDescription"),
-      accent: "var(--accent)",
-    },
-    {
-      href: SOCIAL_LINKS.linkedin,
-      Icon: FiLinkedin,
-      label: t("contact.linkedinLabel"),
-      description: t("contact.linkedinDescription"),
-      accent: "#0A66C2",
-    },
-    {
-      href: SOCIAL_LINKS.github,
-      Icon: FiGithub,
-      label: t("contact.githubLabel"),
-      description: t("contact.githubDescription"),
-      accent: "#6e7781",
-    },
-  ]
+  const channelHref = {
+    email: SOCIAL_LINKS.email,
+    linkedin: SOCIAL_LINKS.linkedin,
+    github: SOCIAL_LINKS.github,
+  }
 
   return (
     <section id="contact" className="py-24 scroll-mt-20 sm:py-28">
@@ -111,8 +104,15 @@ export function Contact() {
           variants={grid}
           className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
         >
-          {cards.map((c) => (
-            <ContactCard key={c.label} {...c} />
+          {CHANNELS.map(({ id, Icon, accent }) => (
+            <ContactCard
+              key={id}
+              href={channelHref[id]}
+              Icon={Icon}
+              accent={accent}
+              label={t(`contact.${id}Label`)}
+              description={t(`contact.${id}Description`)}
+            />
           ))}
         </motion.div>
 

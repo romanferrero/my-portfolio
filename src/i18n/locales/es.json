@@ -11,21 +11,21 @@
     "greeting": "Hola, soy",
     "name": "Roman Ferrero",
     "role": "Full-Stack Developer & SE Student",
-    "tagline": "Próximo a finalizar Ingeniería en Sistemas en la Universidad ORT Uruguay. Construyo aplicaciones web full-stack con foco en JavaScript, Node.js, REST APIs y bases de datos relacionales.",
+    "tagline": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, enfocado en crear aplicaciones web modernas, escalables y fáciles de usar. Me gusta transformar ideas en productos digitales limpios y funcionales mientras sigo creciendo como desarrollador de software.",
     "ctaProjects": "Ver proyectos",
     "ctaContact": "Contactarme",
-    "available": "Disponible para nuevas oportunidades",
+    "available": "Abierto a nuevas oportunidades",
     "ctaResume": "Descargar CV"
   },
   "about": {
     "eyebrow": "Sobre mí",
-    "title": "Pasión por construir software de calidad",
-    "lead": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, próximo a finalizar la carrera, con formación en desarrollo full-stack. Manejo JavaScript, Node.js, .NET, Java, React y bases de datos SQL, aplicando buenas prácticas de programación, documentación y control de versiones.",
-    "secondary": "Hice mi pasantía en BASF como parte del Tech Team, donde optimicé procesos con macros VBA sobre datos de SAP y completé formación en .NET, Node.js, Git y SQL. Busco iniciar mi carrera profesional como desarrollador, sumando a equipos donde pueda aportar al desarrollo, mantenimiento y mejora de sistemas en entornos colaborativos.",
+    "title": "Construyendo software con foco en calidad y aprendizaje constante",
+    "lead": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, próximo a finalizar la carrera, y actualmente también me estoy formando en Desarrollo Full-Stack en Coderhouse. Me enfoco en crear aplicaciones web modernas, APIs REST y soluciones basadas en datos, aplicando buenas prácticas de programación, documentación y control de versiones.",
+    "secondary": "Durante mi pasantía en BASF formé parte del Tech Team, donde trabajé con datos de SAP y desarrollé macros en VBA para optimizar procesos internos. Además, fortalecí mis conocimientos en .NET, Node.js, Git y SQL, y adquirí experiencia colaborando en equipo. Hoy busco iniciar mi carrera profesional como desarrollador, aportando en el desarrollo, mantenimiento y mejora de sistemas reales.",
     "stats": {
       "career": "años de carrera",
       "projects": "proyectos académicos",
-      "languages": "lenguajes de programación",
+      "languages": "años programando",
       "location": "Montevideo, UY"
     }
   },
@@ -42,7 +42,7 @@
   },
   "projects": {
     "eyebrow": "Proyectos",
-    "title": "Cosas que construí",
+    "title": "Proyectos en los que trabajé",
     "lead": "Una selección de proyectos académicos y personales donde aplico lo que aprendo y experimento con tecnologías nuevas.",
     "viewCode": "Ver código",
     "viewDemo": "Ver demo"
@@ -60,7 +60,7 @@
   "contact": {
     "eyebrow": "Contacto",
     "title": "Conversemos",
-    "lead": "Estoy abierto a oportunidades de pasantía, primer empleo o proyectos colaborativos. La forma más rápida es por email o LinkedIn.",
+    "lead": "Siempre estoy abierto a conversar sobre oportunidades, colaboraciones o proyectos interesantes. La mejor forma de contactarme es por email o LinkedIn.",
     "emailLabel": "Escribime un email",
     "emailDescription": "Para propuestas, consultas o un café virtual.",
     "linkedinLabel": "Conectemos en LinkedIn",

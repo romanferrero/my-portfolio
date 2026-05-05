@@ -19,13 +19,13 @@
   },
   "about": {
     "eyebrow": "About me",
-    "title": "Passionate about shipping quality software",
-    "lead": "I am an advanced Computer Engineering student at Universidad ORT Uruguay, close to finishing my degree, with full-stack development training. I work with JavaScript, Node.js, .NET, Java, React and SQL databases, following best practices in programming, documentation and version control.",
-    "secondary": "I interned at BASF as part of the Tech Team, where I optimized processes with VBA macros over SAP data and completed training in .NET, Node.js, Git and SQL. I am looking to start my professional career as a developer, contributing to teams where I can help build, maintain and improve systems in collaborative environments.",
+    "title": "Building software with a focus on quality and continuous learning",
+    "lead": "I am an advanced Computer Engineering student at Universidad ORT Uruguay, close to completing my degree, and I am also currently training in Full-Stack Development at Coderhouse. I focus on building modern web applications, REST APIs, and data-driven solutions while applying good practices in programming, documentation, and version control.",
+    "secondary": "During my internship at BASF, I was part of the Tech Team, where I worked with SAP data and developed VBA macros to optimize internal processes. I also strengthened my knowledge of .NET, Node.js, Git, and SQL, while gaining experience collaborating within a team. I am now looking to start my professional career as a developer, contributing to the development, maintenance, and improvement of real-world systems.",
     "stats": {
       "career": "years into my degree",
       "projects": "academic projects",
-      "languages": "programming languages",
+      "languages": "coding years",
       "location": "Montevideo, UY"
     }
   },
@@ -42,7 +42,7 @@
   },
   "projects": {
     "eyebrow": "Projects",
-    "title": "Things I have built",
+    "title": "Projects I worked on",
     "lead": "A curated selection of academic and personal projects where I apply what I learn and experiment with new technologies.",
     "viewCode": "View code",
     "viewDemo": "View demo"
@@ -60,7 +60,7 @@
   "contact": {
     "eyebrow": "Contact",
     "title": "Let's talk",
-    "lead": "I'm open to internships, first jobs or collaborative projects. The fastest way to reach me is email or LinkedIn.",
+    "lead": "I'm always open to connecting about opportunities, collaborations, or interesting projects. The best way to reach me is by email or LinkedIn.",
     "emailLabel": "Send me an email",
     "emailDescription": "For proposals, questions or a virtual coffee.",
     "linkedinLabel": "Connect on LinkedIn",

@@ -5,13 +5,14 @@ import { Container } from "./components/ui/Container.jsx"
 import { Hero } from "./components/sections/Hero.jsx"
 import { About } from "./components/sections/About.jsx"
 import { Skills } from "./components/sections/Skills.jsx"
+import { Projects } from "./components/sections/Projects.jsx"
 import { useLanguage } from "./hooks/useLanguage.js"
 
 /**
  * Sections still pending implementation. They render a "Coming soon"
  * placeholder so the navbar scroll-spy and anchor links keep working.
  */
-const PENDING_SECTIONS = ["projects", "experience", "contact"]
+const PENDING_SECTIONS = ["experience", "contact"]
 
 function PlaceholderSection({ id }) {
   const { t } = useLanguage()
@@ -43,6 +44,7 @@ function AppShell() {
         <Hero />
         <About />
         <Skills />
+        <Projects />
         {PENDING_SECTIONS.map((id) => (
           <PlaceholderSection key={id} id={id} />
         ))}

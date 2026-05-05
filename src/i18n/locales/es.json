@@ -39,6 +39,13 @@
       "tools": "Herramientas"
     }
   },
+  "projects": {
+    "eyebrow": "Proyectos",
+    "title": "Cosas que construí",
+    "lead": "Una selección de proyectos académicos y personales donde aplico lo que aprendo y experimento con tecnologías nuevas.",
+    "viewCode": "Ver código",
+    "viewDemo": "Ver demo"
+  },
   "footer": {
     "rights": "Todos los derechos reservados.",
     "builtWith": "Construido con"

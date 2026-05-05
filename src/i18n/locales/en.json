@@ -39,6 +39,13 @@
       "tools": "Tools"
     }
   },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Things I have built",
+    "lead": "A curated selection of academic and personal projects where I apply what I learn and experiment with new technologies.",
+    "viewCode": "View code",
+    "viewDemo": "View demo"
+  },
   "footer": {
     "rights": "All rights reserved.",
     "builtWith": "Built with"

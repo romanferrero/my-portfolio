@@ -11,16 +11,17 @@
     "greeting": "Hi, I'm",
     "name": "Roman Ferrero",
     "role": "Full-Stack Developer & SE Student",
-    "tagline": "I build modern web applications while finishing my Computer Engineering degree at Universidad ORT Uruguay.",
+    "tagline": "Finishing my Computer Engineering degree at Universidad ORT Uruguay. I build full-stack web applications with a focus on JavaScript, Node.js, REST APIs and relational databases.",
     "ctaProjects": "View projects",
     "ctaContact": "Get in touch",
-    "available": "Open to new opportunities"
+    "available": "Open to new opportunities",
+    "ctaResume": "Download CV"
   },
   "about": {
     "eyebrow": "About me",
     "title": "Passionate about shipping quality software",
-    "lead": "I am an advanced Computer Engineering student at Universidad ORT Uruguay, focused on full-stack development. I enjoy solving problems with clean code, crafting interfaces that feel good to use, and understanding the business domain behind every project.",
-    "secondary": "I care about the full product lifecycle: from architecture and data modeling to user experience and performance. I am looking for opportunities to join teams where I can learn, contribute and build products that make a real impact.",
+    "lead": "I am an advanced Computer Engineering student at Universidad ORT Uruguay, close to finishing my degree, with full-stack development training. I work with JavaScript, Node.js, .NET, Java, React and SQL databases, following best practices in programming, documentation and version control.",
+    "secondary": "I interned at BASF as part of the Tech Team, where I optimized processes with VBA macros over SAP data and completed training in .NET, Node.js, Git and SQL. I am looking to start my professional career as a developer, contributing to teams where I can help build, maintain and improve systems in collaborative environments.",
     "stats": {
       "career": "years into my degree",
       "projects": "academic projects",
@@ -45,6 +46,28 @@
     "lead": "A curated selection of academic and personal projects where I apply what I learn and experiment with new technologies.",
     "viewCode": "View code",
     "viewDemo": "View demo"
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Academic and professional path",
+    "lead": "A combination of university studies, technical certifications and professional experience, sorted chronologically.",
+    "kinds": {
+      "education": "Education",
+      "work": "Work"
+    },
+    "current": "Present"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "lead": "I'm open to internships, first jobs or collaborative projects. The fastest way to reach me is email or LinkedIn.",
+    "emailLabel": "Send me an email",
+    "emailDescription": "For proposals, questions or a virtual coffee.",
+    "linkedinLabel": "Connect on LinkedIn",
+    "linkedinDescription": "My professional profile with the full picture.",
+    "githubLabel": "Check out my code",
+    "githubDescription": "Repos, contributions and experiments.",
+    "ctaPrimary": "Send email"
   },
   "footer": {
     "rights": "All rights reserved.",

@@ -60,7 +60,7 @@ src/
 - [x] **Phase 3** - Hero + About sections
 - [x] **Phase 4** - Skills section
 - [x] **Phase 5** - Projects section
-- [ ] **Phase 6** — Experience timeline + Contact
+- [x] **Phase 6** - Experience timeline + Contact
 - [ ] **Phase 7** — Polish: scroll animations, SEO, deployment
 
 ## License

@@ -11,16 +11,17 @@
     "greeting": "Hola, soy",
     "name": "Roman Ferrero",
     "role": "Full-Stack Developer & SE Student",
-    "tagline": "Construyo aplicaciones web modernas mientras curso los últimos años de Ingeniería en Sistemas en la Universidad ORT Uruguay.",
+    "tagline": "Próximo a finalizar Ingeniería en Sistemas en la Universidad ORT Uruguay. Construyo aplicaciones web full-stack con foco en JavaScript, Node.js, REST APIs y bases de datos relacionales.",
     "ctaProjects": "Ver proyectos",
     "ctaContact": "Contactarme",
-    "available": "Disponible para nuevas oportunidades"
+    "available": "Disponible para nuevas oportunidades",
+    "ctaResume": "Descargar CV"
   },
   "about": {
     "eyebrow": "Sobre mí",
     "title": "Pasión por construir software de calidad",
-    "lead": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, con foco en desarrollo full-stack. Disfruto resolver problemas con código limpio, escribir interfaces que se sientan bien al usar y entender el dominio del negocio detrás de cada proyecto.",
-    "secondary": "Me interesa todo el ciclo del producto: desde la arquitectura y el modelado de datos hasta la experiencia de usuario y la performance. Busco oportunidades para sumar a equipos donde aprenda, aporte y construya productos con impacto real.",
+    "lead": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, próximo a finalizar la carrera, con formación en desarrollo full-stack. Manejo JavaScript, Node.js, .NET, Java, React y bases de datos SQL, aplicando buenas prácticas de programación, documentación y control de versiones.",
+    "secondary": "Hice mi pasantía en BASF como parte del Tech Team, donde optimicé procesos con macros VBA sobre datos de SAP y completé formación en .NET, Node.js, Git y SQL. Busco iniciar mi carrera profesional como desarrollador, sumando a equipos donde pueda aportar al desarrollo, mantenimiento y mejora de sistemas en entornos colaborativos.",
     "stats": {
       "career": "años de carrera",
       "projects": "proyectos académicos",
@@ -45,6 +46,28 @@
     "lead": "Una selección de proyectos académicos y personales donde aplico lo que aprendo y experimento con tecnologías nuevas.",
     "viewCode": "Ver código",
     "viewDemo": "Ver demo"
+  },
+  "experience": {
+    "eyebrow": "Experiencia",
+    "title": "Trayectoria académica y profesional",
+    "lead": "Combinación de formación universitaria, certificaciones técnicas y experiencia profesional, ordenada cronológicamente.",
+    "kinds": {
+      "education": "Educación",
+      "work": "Trabajo"
+    },
+    "current": "En curso"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Conversemos",
+    "lead": "Estoy abierto a oportunidades de pasantía, primer empleo o proyectos colaborativos. La forma más rápida es por email o LinkedIn.",
+    "emailLabel": "Escribime un email",
+    "emailDescription": "Para propuestas, consultas o un café virtual.",
+    "linkedinLabel": "Conectemos en LinkedIn",
+    "linkedinDescription": "Mi perfil profesional con todo el detalle.",
+    "githubLabel": "Mirá mi código",
+    "githubDescription": "Repositorios, contribuciones y experimentos.",
+    "ctaPrimary": "Enviar email"
   },
   "footer": {
     "rights": "Todos los derechos reservados.",

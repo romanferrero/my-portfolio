@@ -1,9 +1,10 @@
 import { motion } from "framer-motion"
-import { ArrowRight, Mail } from "lucide-react"
+import { ArrowRight, Download, Mail } from "lucide-react"
 
 import { Container } from "../ui/Container.jsx"
 import { Button } from "../ui/Button.jsx"
 import { useLanguage } from "../../hooks/useLanguage.js"
+import { SOCIAL_LINKS } from "../../data/social.js"
 
 /**
  * Variants for staggered entrance animation.
@@ -132,6 +133,15 @@ export function Hero() {
               leadingIcon={<Mail size={16} />}
             >
               {t("hero.ctaContact")}
+            </Button>
+            <Button
+              as="a"
+              href={SOCIAL_LINKS.cv}
+              download
+              variant="ghost"
+              leadingIcon={<Download size={16} />}
+            >
+              {t("hero.ctaResume")}
             </Button>
           </motion.div>
         </motion.div>

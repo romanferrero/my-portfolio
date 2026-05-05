@@ -10,21 +10,21 @@
   "hero": {
     "greeting": "Hola, soy",
     "name": "Roman Ferrero",
-    "role": "Full-Stack Developer & SE Student",
-    "tagline": "Construyo aplicaciones web modernas mientras curso los últimos años de Ingeniería en Sistemas en la Universidad ORT Uruguay.",
+    "role": "Full-Stack Developer & SE Advanced Student",
+    "tagline": "Soy estudiante de Ingeniería en Sistemas en la Universidad ORT Uruguay, enfocado en crear aplicaciones web modernas, escalables y fáciles de usar. Me gusta transformar ideas en productos digitales limpios y funcionales mientras sigo creciendo como desarrollador de software.",
     "ctaProjects": "Ver proyectos",
     "ctaContact": "Contactarme",
-    "available": "Disponible para nuevas oportunidades"
+    "available": "Abierto a nuevas oportunidades"
   },
   "about": {
     "eyebrow": "Sobre mí",
-    "title": "Pasión por construir software de calidad",
-    "lead": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, con foco en desarrollo full-stack. Disfruto resolver problemas con código limpio, escribir interfaces que se sientan bien al usar y entender el dominio del negocio detrás de cada proyecto.",
-    "secondary": "Me interesa todo el ciclo del producto: desde la arquitectura y el modelado de datos hasta la experiencia de usuario y la performance. Busco oportunidades para sumar a equipos donde aprenda, aporte y construya productos con impacto real.",
+    "title": "Construyendo software con foco en calidad y aprendizaje constante",
+    "lead": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, próximo a finalizar la carrera, y actualmente también me estoy formando en Desarrollo Full-Stack en Coderhouse. Me enfoco en crear aplicaciones web modernas, APIs REST y soluciones basadas en datos, aplicando buenas prácticas de programación, documentación y control de versiones.",
+    "secondary": "Durante mi pasantía en BASF formé parte del Tech Team, donde trabajé con datos de SAP y desarrollé macros en VBA para optimizar procesos internos. Además, fortalecí mis conocimientos en .NET, Node.js, Git y SQL, y adquirí experiencia colaborando en equipo. Hoy busco iniciar mi carrera profesional como desarrollador, aportando en el desarrollo, mantenimiento y mejora de sistemas reales.",
     "stats": {
       "career": "años de carrera",
       "projects": "proyectos académicos",
-      "languages": "lenguajes de programación",
+      "languages": "años programando",
       "location": "Montevideo, UY"
     }
   },

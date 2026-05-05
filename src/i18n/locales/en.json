@@ -10,21 +10,21 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Roman Ferrero",
-    "role": "Full-Stack Developer & SE Student",
-    "tagline": "I build modern web applications while finishing my Computer Engineering degree at Universidad ORT Uruguay.",
+    "role": "Full-Stack Developer & SE Advanced Student",
+    "tagline": "I am a Computer Engineering student at Universidad ORT Uruguay, focused on building modern, scalable, and user-friendly web applications. I enjoy turning ideas into clean, functional digital products while continuously improving my skills as a software developer.",
     "ctaProjects": "View projects",
     "ctaContact": "Get in touch",
     "available": "Open to new opportunities"
   },
   "about": {
     "eyebrow": "About me",
-    "title": "Passionate about shipping quality software",
-    "lead": "I am an advanced Computer Engineering student at Universidad ORT Uruguay, focused on full-stack development. I enjoy solving problems with clean code, crafting interfaces that feel good to use, and understanding the business domain behind every project.",
-    "secondary": "I care about the full product lifecycle: from architecture and data modeling to user experience and performance. I am looking for opportunities to join teams where I can learn, contribute and build products that make a real impact.",
+    "title": "Building software with a focus on quality and continuous learning",
+    "lead": "I am an advanced Computer Engineering student at Universidad ORT Uruguay, close to completing my degree, and I am also currently training in Full-Stack Development at Coderhouse. I focus on building modern web applications, REST APIs, and data-driven solutions while applying good practices in programming, documentation, and version control.",
+    "secondary": "During my internship at BASF, I was part of the Tech Team, where I worked with SAP data and developed VBA macros to optimize internal processes. I also strengthened my knowledge of .NET, Node.js, Git, and SQL, while gaining experience collaborating within a team. I am now looking to start my professional career as a developer, contributing to the development, maintenance, and improvement of real-world systems.",
     "stats": {
       "career": "years into my degree",
       "projects": "academic projects",
-      "languages": "programming languages",
+      "languages": "years coding",
       "location": "Montevideo, UY"
     }
   },

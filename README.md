@@ -58,7 +58,7 @@ src/
 - [x] **Phase 1** - Foundation: Vite + React scaffold, Tailwind v4, theme tokens, project structure
 - [x] **Phase 2** - Layout: theme provider, i18n (ES/EN), navbar with scroll-spy, footer, theme + language toggles
 - [x] **Phase 3** - Hero + About sections
-- [ ] **Phase 4** — Skills section
+- [x] **Phase 4** - Skills section
 - [ ] **Phase 5** — Projects section
 - [ ] **Phase 6** — Experience timeline + Contact
 - [ ] **Phase 7** — Polish: scroll animations, SEO, deployment

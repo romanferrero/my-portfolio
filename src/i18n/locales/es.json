@@ -9,10 +9,24 @@
   },
   "hero": {
     "greeting": "Hola, soy",
-    "role": "Desarrollador Full-Stack",
-    "tagline": "Estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay.",
+    "name": "Roman Ferrero",
+    "role": "Full-Stack Developer & SE Student",
+    "tagline": "Construyo aplicaciones web modernas mientras curso los últimos años de Ingeniería en Sistemas en la Universidad ORT Uruguay.",
     "ctaProjects": "Ver proyectos",
-    "ctaContact": "Contactarme"
+    "ctaContact": "Contactarme",
+    "available": "Disponible para nuevas oportunidades"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Pasión por construir software de calidad",
+    "lead": "Soy estudiante avanzado de Ingeniería en Sistemas en la Universidad ORT Uruguay, con foco en desarrollo full-stack. Disfruto resolver problemas con código limpio, escribir interfaces que se sientan bien al usar y entender el dominio del negocio detrás de cada proyecto.",
+    "secondary": "Me interesa todo el ciclo del producto: desde la arquitectura y el modelado de datos hasta la experiencia de usuario y la performance. Busco oportunidades para sumar a equipos donde aprenda, aporte y construya productos con impacto real.",
+    "stats": {
+      "career": "años de carrera",
+      "projects": "proyectos académicos",
+      "languages": "lenguajes de programación",
+      "location": "Montevideo, UY"
+    }
   },
   "footer": {
     "rights": "Todos los derechos reservados.",

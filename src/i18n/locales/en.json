@@ -9,10 +9,24 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "role": "Full-Stack Developer",
-    "tagline": "Advanced Computer Engineering student at Universidad ORT Uruguay.",
+    "name": "Roman Ferrero",
+    "role": "Full-Stack Developer & SE Student",
+    "tagline": "I build modern web applications while finishing my Computer Engineering degree at Universidad ORT Uruguay.",
     "ctaProjects": "View projects",
-    "ctaContact": "Get in touch"
+    "ctaContact": "Get in touch",
+    "available": "Open to new opportunities"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Passionate about shipping quality software",
+    "lead": "I am an advanced Computer Engineering student at Universidad ORT Uruguay, focused on full-stack development. I enjoy solving problems with clean code, crafting interfaces that feel good to use, and understanding the business domain behind every project.",
+    "secondary": "I care about the full product lifecycle: from architecture and data modeling to user experience and performance. I am looking for opportunities to join teams where I can learn, contribute and build products that make a real impact.",
+    "stats": {
+      "career": "years into my degree",
+      "projects": "academic projects",
+      "languages": "programming languages",
+      "location": "Montevideo, UY"
+    }
   },
   "footer": {
     "rights": "All rights reserved.",
